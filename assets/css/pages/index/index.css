@@ -1,0 +1,8 @@
+@import '../../global/global.css';
+
+@import 'partials/header.css';
+@import 'partials/noticias.css';
+@import 'partials/quem-somos.css';
+@import 'partials/membros.css';
+@import 'partials/conquistas.css';
+@import 'partials/footer.css';

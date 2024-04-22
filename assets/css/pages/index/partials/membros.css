@@ -1,0 +1,142 @@
+.membros, .box-membros {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  max-width: 900px;
+  min-height: 100dvh;
+
+  margin: 0 auto;
+
+  gap: 2.5rem;
+
+  padding: 5rem;
+
+  position: relative;
+}
+
+.membros h2 {
+  font-size: clamp(1.5rem, 2rem, 2rem);
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+
+  text-transform: uppercase;
+
+  position: absolute;
+
+  left: 0;
+  top: 0;
+
+  transform: translateX(80px) translateY(50px);
+}
+
+.membros h2:after {
+  content: '';
+
+  display: block;
+
+  width: 100%;
+  height: 2px;
+
+  background: var(--linear-gradient);
+}
+
+.membros .card-membro {
+  width: 15rem;
+  height: 15rem;
+
+  background: #c3c3c3c3;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+
+  line-height: 15px;
+}
+
+.membros .card-membro h3 {
+
+  font-family: 'brigast';
+
+  font-size: clamp(.8rem, 1dvw, 1.2rem);
+}
+
+.membros .card-membro p {
+
+  font-family: "poppins", sans-serif;
+
+  font-size: clamp(1rem, 1dvw, 1.2rem);
+}
+
+.membros .card-membro h3, p {
+  transform: translateY(20px);
+}
+
+
+@media (max-width: 425px) {
+  .membros, .box-membros {
+    gap: 2.5rem 1rem;
+    
+    line-height: 10px;
+  
+    padding: 5rem;
+  }
+
+  .membros h2:after {
+    content: '';
+  
+    display: block;
+  
+    width: 100%;
+    height: 2px;
+  
+    background: var(--linear-gradient);
+    
+    transform: translateY(250%);
+  }
+
+  .membros .card-membro {
+    width: 10rem;
+    height: 10rem;
+  
+    background: #c3c3c3c3;
+  }
+
+  .membros h2::after {
+    content: '';
+  
+    display: block;
+  
+    width: 100%;
+    height: 2px;
+  
+    background: var(--linear-gradient);
+  }
+}
+
+@media (max-width: 326px) {
+
+  .membros {
+    padding: 0;
+  }
+
+  .membros h2 {
+    transform: translateX(59px) translateY(30px);
+  }
+
+  .membros, .box-membros {
+    gap: 2.5rem 1rem;
+    
+    line-height: 10px;
+  }
+
+  .membros .card-membro {
+    width: 10rem;
+    height: 10rem;
+  
+    background: #c3c3c3c3;
+  }
+}

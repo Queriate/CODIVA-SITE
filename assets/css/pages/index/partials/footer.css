@@ -1,0 +1,131 @@
+.footer {
+  width: 100%;
+  height: 541px;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  color: var(--primary-3);
+
+  background: var(--primary-1);
+
+  padding: 5rem 0 0 0;
+}
+
+.footer .redes-sociais .redes {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .redes-sociais .redes i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 3rem;
+  height: 3rem;
+
+  font-size: 2rem;
+  color: var(--primary-1);
+
+  background: var(--primary-3);
+
+  transition: .3s ease-in-out;
+}
+
+.footer .redes-sociais .redes i:hover {
+  transform: scale(120%);
+
+  background: transparent;
+
+  color: var(--primary-3);
+}
+
+.footer .redes-sociais .redes i {
+  margin: 0 .5rem 0 .5rem;
+}
+
+.footer .redes-sociais h2 {
+  font-size: 3rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+}
+
+/* **********ouvidoria********** */
+
+.footer form legend {
+  font-size: 2rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+
+  text-transform: uppercase;
+}
+
+.footer .box-input {
+  padding: 1rem;
+
+  font-size: 1rem;
+  font-family: "poppins", sans-serif;
+
+  background: var(--primary-3);
+
+  border: none;
+}
+
+.footer textarea {
+  font-size: 1rem;
+  font-family: "poppins", sans-serif;
+
+  background: var(--primary-3);
+
+  border: none;
+
+  padding: 1rem;
+}
+
+.footer form fieldset {
+  width: 229px;
+  height: 352px;
+
+  display: flex;
+
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding: 1rem;
+
+  gap: 1rem;
+}
+
+.footer form .btn-botao {
+  font-size: 1rem;
+  font-family: "poppins", sans-serif;
+
+  width: 30%;
+  
+  padding: 0 .5rem 0 0;
+  text-align: right;
+
+  border: none;
+
+  transform: translateX(235%);
+}
+
+@media (max-width: 425px) {
+  .footer {
+    height: 641px;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+
+    padding: 5% 0 5% 0;
+
+    flex-direction: column;
+    padding: 5rem 0 0 0;
+  }
+}

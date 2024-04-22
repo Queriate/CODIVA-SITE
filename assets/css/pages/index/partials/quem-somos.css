@@ -1,0 +1,49 @@
+.quem-somos {
+  width: 100%;
+  height: 100dvh;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: justify;
+}
+
+.quem-somos {
+  background: url(../../../../files/imgs/quem-somos/bg.svg) no-repeat;
+  background-size: 25rem;
+  background-position: center;
+}
+
+.quem-somos .box-sobre {
+
+  padding: 0 30% 0 30%;
+  gap: .8rem;
+}
+
+.quem-somos .box-sobre h1 {
+
+  font-family: "Anton", sans-serif;
+  font-size: clamp(3rem, 3rem, 5rem);
+
+  text-align: center;
+}
+
+.quem-somos .box-sobre p {
+  font-family: "poppins", sans-serif;
+  font-size: clamp(1.1rem, 2rem, 1.5rem);
+
+}
+
+@media (max-width: 725px){
+  .quem-somos .box-sobre {
+  
+    display: flex;
+    flex-direction: column; 
+    gap: .8rem;
+
+    padding: 8%;
+  }
+}

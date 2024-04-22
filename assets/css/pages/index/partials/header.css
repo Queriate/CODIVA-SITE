@@ -1,0 +1,76 @@
+.header {
+  width: 100%;
+  height: 13.6rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .ouvidoria a {
+  border: 1px solid transparent;
+  font-size: clamp(1.3rem, 1.5rem, 2rem);
+  border-image: url(../../../../files/imgs/header/Bold\ Rainbow\ Stripe\ Wallpaper\ Mural\ -\ Hovia\ 2.svg) .1% round;
+
+  padding: 3px 10px;
+
+  font-family: 'poppins';
+
+  color: var(--primary-2);
+
+  text-decoration: none;
+}
+
+.header .navegacao, ul{
+  width: 100%;
+  height: 3.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'poppins';
+
+  gap: 6.1rem;
+
+  border: 1px solid var(--primary-1);
+}
+
+.header .navegacao, li {
+  display: inline-block;
+  padding: 1px 2px;
+  position: relative;
+
+  font-size: clamp(1.5rem, 2rem, 1.5rem);
+}
+
+.header .navegacao, li:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1.5px;
+  background: var(--linear-gradient);
+  transition: width .3s ease-in-out;
+}
+
+.header .navegacao, li:hover::after {
+  width: 90%;
+}
+
+.header {
+  background: var(--primary-1);
+}
+
+@media (max-width: 725px) {
+  .header .navegacao, ul {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 325px) {
+  .header .navegacao, ul {
+    gap: 2rem;
+  }
+}
