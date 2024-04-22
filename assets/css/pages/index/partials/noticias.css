@@ -139,11 +139,23 @@
   }
 
   .noticias .thumbnail-noticia {
-    width: 36rem;
+    width: 30rem;
     height: 28.2rem;
   }
 
   .noticias .thumbnail-noticia h2 {
     line-height: 1.5rem;
+  }
+
+  .outras-noticias .card-noticia {
+    max-width: 290px;
+  }
+
+  .outras-noticias .card-noticia .box-img {
+    width: 290px;
+    height: 200px;
+  
+    margin: 0 auto;
+    background: var(--primary-1);
   }
 }

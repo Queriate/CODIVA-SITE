@@ -30,8 +30,6 @@
 
   font-family: 'poppins';
 
-  gap: 6.1rem;
-
   border: 1px solid var(--primary-1);
 }
 
@@ -64,6 +62,6 @@
 
 @media (max-width: 725px) {
   .header .navegacao, ul {
-    gap: 4rem;
+    gap: 1.5rem;
   }
 }
