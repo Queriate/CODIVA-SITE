@@ -47,3 +47,9 @@
     padding: 8%;
   }
 }
+
+@media (max-width: 325px){
+  .quem-somos .box-sobre {
+    margin: 0 0 5rem 0;
+  }
+}

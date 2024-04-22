@@ -82,3 +82,11 @@
     transform: translateX(80px) translateY(15px);
   }
   }
+
+  @media (max-width: 325px) {
+    .conquistas{
+  
+      min-height: 70dvh;
+
+  }
+  }
