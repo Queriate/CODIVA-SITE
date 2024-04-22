@@ -7,12 +7,13 @@
   width: 100%;
   height: 100dvh;
 
+  margin: 0 0 5rem 0;
 }
 
 .noticias .noticia-destaque h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 1.5rem, 2rem, 2.5rem;
+  font-size: 1rem, 2dvw, 2.5rem;
 
   letter-spacing: 5px;
 
@@ -36,11 +37,11 @@
 
 
 .noticias h1 {
-  font-size: clamp(1.5rem, 2rem, 3rem);
+  font-size: clamp(1.5rem, 2dvw, 3rem);
 }
 
 .noticias .thumbnail-noticia {
-  width: 76.0rem;
+  width: 76rem;
   height: 28.2rem;
   background: var(--primary-1);
 
@@ -56,7 +57,7 @@
 }
 
 .noticias .thumbnail-noticia h2 {
-  font-size: clamp(1.5rem, 2.5rem, 3rem);
+  font-size: clamp(1rem, 1.5dvw, 3rem);
   font-family: 'brigast';
 
   margin: 0 1rem 0 0;
@@ -65,7 +66,7 @@
 }
 
 .noticias .thumbnail-noticia p {
-  font-size: clamp(1rem, 1rem, 1rem);
+  font-size: clamp(1rem, 1dvw, 1rem);
   font-family: 'poppins';
 
   margin: 0 1rem 3rem 0;
@@ -138,28 +139,11 @@
   }
 
   .noticias .thumbnail-noticia {
-    width: 40rem;
+    width: 36rem;
     height: 28.2rem;
-
-  }
-}
-
-@media (max-width: 325px) {
-
-  .noticias .thumbnail-noticia {
-    width: 25rem;
-    height: 28.2rem;
-
   }
 
-  .outras-noticias .card-noticia .box-img {
-    width: 260px;
-    height: 200px;
-  
-    background: var(--primary-1);
-  }
-
-  .outras-noticias .card-noticia {
-    max-width: 260px;
+  .noticias .thumbnail-noticia h2 {
+    line-height: 1.5rem;
   }
 }

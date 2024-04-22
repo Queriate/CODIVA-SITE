@@ -82,7 +82,7 @@
     
     line-height: 10px;
   
-    padding: 5rem;
+    padding: 2.5rem;
   }
 
   .membros h2:after {
@@ -115,28 +115,8 @@
   
     background: var(--linear-gradient);
   }
-}
 
-@media (max-width: 326px) {
-
-  .membros {
-    padding: 0;
-  }
-
-  .membros h2 {
-    transform: translateX(59px) translateY(30px);
-  }
-
-  .membros, .box-membros {
-    gap: 2.5rem 1rem;
-    
-    line-height: 10px;
-  }
-
-  .membros .card-membro {
-    width: 10rem;
-    height: 10rem;
-  
-    background: #c3c3c3c3;
+   .membros h2 {
+    transform: translateX(90px);
   }
 }

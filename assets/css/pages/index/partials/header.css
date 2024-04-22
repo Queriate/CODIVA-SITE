@@ -8,9 +8,8 @@
 }
 
 .header .ouvidoria a {
-  border: 1px solid transparent;
-  font-size: clamp(1.3rem, 1.5rem, 2rem);
-  border-image: url(../../../../files/imgs/header/Bold\ Rainbow\ Stripe\ Wallpaper\ Mural\ -\ Hovia\ 2.svg) .1% round;
+  border: 1px solid var(--primary-3) ;
+  font-size: clamp(1rem, 1.5dvw, 2rem);
 
   padding: 3px 10px;
 
@@ -41,7 +40,7 @@
   padding: 1px 2px;
   position: relative;
 
-  font-size: clamp(1.5rem, 2rem, 1.5rem);
+  font-size: clamp(1.5rem, 2dvw, 1.5rem);
 }
 
 .header .navegacao, li:after {
@@ -66,11 +65,5 @@
 @media (max-width: 725px) {
   .header .navegacao, ul {
     gap: 4rem;
-  }
-}
-
-@media (max-width: 325px) {
-  .header .navegacao, ul {
-    gap: 2rem;
   }
 }
