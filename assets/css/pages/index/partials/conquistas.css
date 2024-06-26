@@ -42,11 +42,23 @@
   }
 
   .conquistas .conquista {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
     width:  76rem;
     height: 4.8rem;
 
+    padding: .5rem;
+
     background: #c3c3c3;
+  }
+
+  .conquistas .conquista {
+    font-size: clamp(1rem, 1.5dvw, 1.5rem);
+    font-family: 'poppins';
+    font-weight: 700;
   }
 
   .conquistas .conquista {
