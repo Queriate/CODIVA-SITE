@@ -35,7 +35,7 @@
   border: 1px solid var(--primary-1);
 }
 
-.header .navegacao, li {
+.header .navegacao, li,a {
   display: inline-block;
   padding: 1px 2px;
   position: relative;

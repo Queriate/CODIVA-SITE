@@ -1,0 +1,155 @@
+.materia {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+
+  margin: 5.8rem 0 0 0;
+}
+
+.materia .tema {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 87.2rem;
+  height: 14.1rem;
+
+  background: var(--primary-1);
+
+  position: relative;
+}
+
+.materia .tema h1 {
+  color: var(--primary-2);
+
+  font-size: clamp(1.2rem, 1.8dvw, 3rem);
+
+  font-family: 'brigast';
+
+  line-height: 3.5rem;
+
+  transform: translateX(-15%);
+}
+
+.materia .tema .simbolo {
+  position: absolute;
+
+  transform: translateX(153%)
+}
+
+/* *********************** materia ************************/
+
+.materia-foco {
+  display: flex;
+
+  width: 755px;
+  height: auto;
+
+  justify-content: space-around;
+
+  padding: 5rem 0 0 0;
+
+}
+
+.box-imag {
+  width: 260px;
+  height: 325px;
+
+  background: url(../../../../files/imgs/noticias/conferencia/pag-noticias/conferencia/conferencia.png);
+}
+
+.materia-foco .texto {
+  width: 60%;
+  margin: 0 0 5rem 0;
+}
+
+.materia-foco .texto {
+  font-size: clamp(1.2rem, 1.5dvw, 2.2rem);
+
+  font-family: 'poppins';
+}
+
+.materia-foco .texto h2 {
+  margin: 4rem 0 -1.8rem 0;
+
+}
+
+@media (max-width: 425px) {
+
+  .materia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    width: 100%;
+    height: auto;
+  
+    margin: 5.8rem 0 0 0;
+  }
+  
+  .materia .tema {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 361px;
+height: 83px;
+
+  }
+  
+  .materia .tema h1 {
+
+    line-height: 2rem;  
+    transform: translateX(0);
+
+    text-align: center;
+  }
+  
+  .materia .tema .simbolo {
+    position: absolute;
+  
+    transform: translateX(-5%);
+
+    z-index: -1;
+
+    filter: opacity(15%) blur(2px);
+  }
+  
+  /* *********************** materia ************************/
+  
+  .materia-foco {
+      
+    width: 259px;
+    height: auto;
+    
+    flex-direction: column;
+    padding: 5rem 0 0 0;
+  
+    margin: 2rem 0 5rem 0;
+  }
+  
+  .box-imag {
+
+    width: 260px;
+    height: 325px;
+  
+    background: url(../../../../files/imgs/noticias/conferencia/pag-noticias/conferencia/conferencia.png);
+  }
+  
+  .materia-foco .texto {
+
+    text-align: justify;
+    width: 100%;
+
+    margin: 5rem 0 0 0;
+  }
+  
+  .materia-foco .texto {
+
+    font-size: clamp(2rem, 1.5dvw, 2.2rem);
+  }
+
+}
